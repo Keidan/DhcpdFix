@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+		android:padding="30dp">
+	<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/label"
+			android:textColor="#1C4094"
+			android:textStyle="italic"
+		    android:paddingBottom="10dp" />
+
+	<Button
+	    android:id="@+id/btFix"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="actionFix"
+	    android:text="@string/btFix" />
+
+</LinearLayout>
