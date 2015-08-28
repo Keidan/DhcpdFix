@@ -11,12 +11,29 @@
 			android:textColor="#1C4094"
 			android:textStyle="italic"
 		    android:paddingBottom="10dp" />
+    <TextView
+	        android:id="@+id/rootStatusTV"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	    	android:gravity="center_vertical"
+	        android:paddingBottom="10dp"
+		    android:drawableLeft="@drawable/red_flat_sing_ko"
+	        android:text="@string/rootStatusNOK" />
+    <TextView
+	        android:id="@+id/fixStatusTV"
+	        android:visibility="gone"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	    	android:gravity="center_vertical"
+	        android:paddingBottom="10dp"
+		    android:drawableLeft="@drawable/red_flat_sing_ko"
+	        android:text="@string/fixStatusNOK" />
 
 	<Button
-	    android:id="@+id/btFix"
+	    android:id="@+id/fixBT"
 	    android:layout_width="fill_parent"
 	    android:layout_height="wrap_content"
 	    android:onClick="actionFix"
-	    android:text="@string/btFix" />
+	    android:text="@string/fix" />
 
 </LinearLayout>

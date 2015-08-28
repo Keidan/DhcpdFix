@@ -1,9 +1,13 @@
 <resources>
 
     <string name="app_name">DhcpcdFix</string>
-    <string name="btFix">Fix</string>
+    <string name="fix">Fix</string>
     <string name="label">Click on \'Fix\' button, to remove the files:\n - dhcpcd-wlan0.lease\n - dhcpcd-wlan0.pid\nof the directory /data/misc/dhcp</string>
     <string name="success">Success</string>
-    <string name="no_root">Cannot get the root privileges. Make sure your device is rooted.</string>
-
+    <string name="noRoot">Cannot get the root privileges. Make sure your device is rooted.</string>
+    <string name="rootStatusNOK">Device not rooted.</string>
+    <string name="rootStatusOK">Device rooted.</string>
+    <string name="fixStatusOK">The fix is already applied.</string>
+    <string name="fixStatusNOK">Ready to apply the fix.</string>
+    <string name="removeFailed">Unable to remove the files.</string>
 </resources>
